@@ -63,6 +63,8 @@ cd example
 yarn add /home/cs/metamn/use-query-filters
 ```
 
+### Additionally ...
+
 ## Resources
 
 - [Building a React component as an NPM module](https://medium.com/recraftrelic/building-a-react-component-as-a-npm-module-18308d4ccde9)
