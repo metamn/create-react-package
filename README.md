@@ -1,10 +1,28 @@
 # create-react-package
 
-## Steps
+A quick help to create a react package. Not automatic, but at least simple and works with hooks, too.
+
+## What's inside
+
+```sh
+/src # the package
+/example # a CRA using the package
+```
+
+## How to use
+
+```sh
+# 1. develop in /src
+# 2. build the package locally
+yarn build
+# 3. in /example the package is refreshed because of `yarn add /home/cs/metamn/use-query-filters`
+```
+
+## Create a new package
 
 This tutorial just works perfectly: [Building a React component as an NPM module](https://medium.com/recraftrelic/building-a-react-component-as-a-npm-module-18308d4ccde9)
 
-```
+```sh
 npm init
 yarn add @babel/cli @babel/core --dev
 yarn add @babel/preset-env @babel/preset-react --dev
@@ -44,7 +62,6 @@ cra example
 cd example
 yarn add /home/cs/metamn/use-query-filters
 ```
-
 
 ## Resources
 
